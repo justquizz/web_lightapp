@@ -1,0 +1,158 @@
+*{
+	padding:0; margin:0; /*reset style*/
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body{
+	background: url(images/background.jpg) repeat;
+	#font:16px "Comic Sans MS";
+	font:14pt "Comic Sans MS";
+	color:#8D220E;
+        
+}
+
+.main{
+	border:0px solid #999999; 
+	width:1000px;
+        margin:0 auto;
+        min-height: 100%;
+}
+	.header{
+		border:0px solid #999999;
+		background: url(images/pine-cone.jpg) no-repeat;
+		overflow: hidden;
+		height:288px;
+		border-radius:15px 15px 15px 15px;
+		-moz-border-radius:15px 15px 15px 15px;
+		-webkit-border-radius:15px 15px 15px 15px;
+		margin:5px 0;
+	}
+		.header h2{
+			font:bold 22px "Century Gothic";
+			color:#FFF9AB;
+			float:left;
+			margin:8px 20px;
+		}
+		.header a{
+			font:bold 32px "Century Gothic";
+			color:#2E373E;
+			text-decoration:none;
+			float:right;
+			margin:20px 120px;
+		}
+		.header a span{
+			color:#8D220E;
+		}
+	
+	
+	/* MAIN MENU */
+		
+	.menu{
+	border:0px solid #999999;
+	overflow:hidden;
+	margin:10px 0;
+	}
+	.menu li{
+		border:0px solid #453C33;
+		list-style:none; 
+		float:left; 
+		padding:7px 30px;
+		margin:0 25px;
+		background:#7A7772;
+		border-radius:30px 5px 30px 5px;
+		-moz-border-radius:30px 5px 30px 5px;
+		-webkit-border-radius:30px 5px 30px 5px;
+	}
+	
+	.menu li a{	
+		font:bold 14pt "Century Gothic"; 
+		color:#2E373E;
+		text-decoration:none;
+	}
+	
+	/*HOVER STYLE of ITEM */
+	.menu li:hover{
+		background:#716938;
+		border-radius:28px 5px 28px 5px;
+		-moz-border-radius:28px 5px 28px 5px;
+		-webkit-border-radius:28px 5px 28px 5px;
+	}
+	
+	/***** Content begin  ******/
+	
+	.content-main{
+		border:0px solid #999999;
+		margin:0 auto;
+		width:90%;
+		padding:30px 20px 105px;
+		font: 12pt "Comic Sans MS";
+	}
+	
+	.name-page{
+		border:0px solid #999999;
+		font:bold 24px "Century Gothic";
+		color:#2E373E;
+		text-align:center;
+		margin:auto 0; 
+		line-height:30px;
+	}
+	
+	.twitts-list{
+		border:1px solid #999999;
+		padding:20px;
+	}
+	
+	.sing-in{
+		margin:150px auto;
+	}
+		.sing-in h2{
+			margin:30px;
+		}
+	
+	.post-main{
+		border:0px solid #999999;
+		overflow:hidden;
+		padding:5px;
+	}
+		.user-image{
+			float:left;
+			margin:0 10px 0px 0;
+		}
+		
+		.post{
+			border:0px solid #999999;
+		}
+		
+		.date{
+			border:0px solid #999999;
+			margin: 0 0 10px 0;
+		}
+		
+		
+		
+		
+
+		
+	/* ------ FOOTER ------ */
+.footer{ 
+		border:0px solid #999999;
+		background:#5E4D33 !important;
+		overflow: hidden;
+		width:80%;
+        height: 70px;
+		margin:0 auto;
+        margin-top: -75px;
+}
+	.footer-center{
+		border:0px solid #999999;
+		font:12pt "Century Gothic";
+		text-align:center;
+		color:#fff; 
+		margin:auto 0; 
+		line-height:20px;
+		padding:5px;
+	}

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: 
+Disallow: /doc/
+Disallow: /download/
+Disallow: /images/
+Disallow: /model/
+Disallow: /pic/
+Disallow: /view/
