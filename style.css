@@ -23,7 +23,7 @@ body{
 }
 	.header{
 		border:0px solid #999999;
-		background: url(images/pine-cone.jpg) no-repeat;
+		background: url(images/background_header.jpg) no-repeat;
 		overflow: hidden;
 		height:288px;
 		border-radius:15px 15px 15px 15px;
