@@ -39,7 +39,7 @@
 	<!-- ------ Content begin  ------- -->
 	<div class="content-main">
 		
-        <?php echo $content; ?>    
+        <?php include_once($_SERVER['DOCUMENT_ROOT'].'/view/'.$view.'.php'); ?>
             
             
 	</div>
