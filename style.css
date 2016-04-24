@@ -15,6 +15,13 @@ body{
         
 }
 
+p {
+    margin-bottom: 10px;
+}
+
+
+
+
 #wrapper_button	{
 	padding:10pt;
 	margin-top:15pt;
