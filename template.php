@@ -11,7 +11,7 @@
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <script type="text/javascript" src="js/functions.js"></script>
 
-<?php include_once("analitics/analiticscripts.php") ?>
+<?php //include_once("analitics/analiticscripts.php") ?>
 
 <title><?php echo $title;?></title>
 </head>

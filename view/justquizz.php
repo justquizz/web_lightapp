@@ -21,5 +21,5 @@
 	Главное перейти по ссылке, полученную от создателя теста. И приложение само загрузит тест.
 </div>
 <div id="wrapper_button">
-	<button id="button_create_test" onclick="createTest()">Создать тест</button>
+	<a href="index.php?view=create_test" id="button_create_test">Создать тест</a>
 </div>

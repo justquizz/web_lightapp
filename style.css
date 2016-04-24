@@ -17,15 +17,26 @@ body{
 
 #wrapper_button	{
 	padding:10pt;
-	margin:0 auto;
+	margin-top:15pt;
+	text-align:center;
 }
 
 #button_create_test	{
+	border:0px solid #453C33;
+	font:bold 14pt "Century Gothic"; 
+	color:#2E373E;
+	background:#7A7772;
+	text-decoration:none;
+	
 	border-radius:15px 15px 15px 15px;
 	-moz-border-radius:15px 15px 15px 15px;
 	-webkit-border-radius:15px 15px 15px 15px;
-	font:bold 22px "Century Gothic";
-	padding:5pt;
+	padding:5pt 25pt;
+}
+
+/*HOVER STYLE of ITEM */
+#button_create_test:hover{
+	background:#716938;	
 }
 
 
