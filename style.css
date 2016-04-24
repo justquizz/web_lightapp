@@ -15,11 +15,25 @@ body{
         
 }
 
+#wrapper_button	{
+	padding:10pt;
+	margin:0 auto;
+}
+
+#button_create_test	{
+	border-radius:15px 15px 15px 15px;
+	-moz-border-radius:15px 15px 15px 15px;
+	-webkit-border-radius:15px 15px 15px 15px;
+	font:bold 22px "Century Gothic";
+	padding:5pt;
+}
+
+
 .main{
 	border:0px solid #999999; 
 	width:1000px;
-        margin:0 auto;
-        min-height: 100%;
+	margin:0 auto;
+	min-height: 100%;
 }
 	.header{
 		border:0px solid #999999;
