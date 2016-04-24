@@ -1,0 +1,5 @@
+function createTest(){
+
+	alert('Hello!');
+
+}
