@@ -15,5 +15,21 @@
 	<p>Тесты, не удовлетворяющие данным принципам, будут блокироваться.</p>
 </div>
 <div id="wrapper_button">
-	<p id="button_create_test" onclick="hideRules()">Скрыть правила</p>
+	<p class="button" id="button_hide_rules" onclick="hideRules()">Скрыть правила</p>
 </div>
+<div id="test_body">
+	<form name="test" method="post" action="create_test_function.php">
+		<div id="test_header">
+			<div id="test_title">
+				<p>
+					Заголовок теста, введите название теста
+					<input type="text" size="50">
+				</p>
+				<p>
+					<input class="button" type="submit" value="Отправить">
+				</p>
+			</div>
+		</div>
+	</form>
+</div>
+

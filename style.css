@@ -20,14 +20,7 @@ p {
 }
 
 
-
-
-#wrapper_button	{
-	padding:10pt;
-	margin-top:15pt;
-	text-align:center;
-}
-
+/*
 #button_create_test	{
 	border:0px solid #453C33;
 	font:bold 14pt "Century Gothic"; 
@@ -39,7 +32,9 @@ p {
 	-moz-border-radius:15px 15px 15px 15px;
 	-webkit-border-radius:15px 15px 15px 15px;
 	padding:5pt 25pt;
-}
+} */
+
+
 
 /*HOVER STYLE of ITEM */
 #button_create_test:hover{
@@ -133,37 +128,29 @@ p {
 		line-height:30px;
 	}
 	
-	.twitts-list{
-		border:1px solid #999999;
-		padding:20px;
+	
+	
+	/***** Buttons *****/
+	.button{
+		border:0px solid #453C33;
+		font:bold 14pt "Century Gothic"; 
+		color:#2E373E;
+		background:#7A7772;
+		text-decoration:none;
+		
+		border-radius:15px 15px 15px 15px;
+		-moz-border-radius:15px 15px 15px 15px;
+		-webkit-border-radius:15px 15px 15px 15px;
+		padding:5pt 25pt;
 	}
 	
-	.sing-in{
-		margin:150px auto;
-	}
-		.sing-in h2{
-			margin:30px;
-		}
+	#wrapper_button	{
+	padding:10pt;
+	margin-top:15pt;
+	text-align:center;
+}
 	
-	.post-main{
-		border:0px solid #999999;
-		overflow:hidden;
-		padding:5px;
-	}
-		.user-image{
-			float:left;
-			margin:0 10px 0px 0;
-		}
-		
-		.post{
-			border:0px solid #999999;
-		}
-		
-		.date{
-			border:0px solid #999999;
-			margin: 0 0 10px 0;
-		}
-		
+	
 		
 		
 		
