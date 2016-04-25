@@ -144,15 +144,36 @@ p {
 		padding:5pt 25pt;
 	}
 	
-	#wrapper_button	{
+	#wrapper_button{
 	padding:10pt;
 	margin-top:15pt;
 	text-align:center;
 }
 	
 	
-		
-		
+	/******* Create test ******/
+
+	#test{
+		display:none;
+	}
+	
+	#test_header, #test_body{
+		border:1px solid #2E373E;
+		border-radius:15px 15px 15px 15px;
+		-moz-border-radius:15px 15px 15px 15px;
+		-webkit-border-radius:15px 15px 15px 15px;
+		padding:10pt;
+		margin-bottom:10pt;
+	}
+	
+	.question{
+		border:1px solid #7A7772;
+		border-radius:15px 15px 15px 15px;
+		-moz-border-radius:15px 15px 15px 15px;
+		-webkit-border-radius:15px 15px 15px 15px;
+		padding:5pt 15pt;
+		margin-bottom:10pt;
+	}
 		
 
 		

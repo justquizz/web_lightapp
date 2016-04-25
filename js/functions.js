@@ -8,6 +8,8 @@ function hideRules(){
 	//alert('hideRules!');
 	var rules = document.getElementById("rules");
 	var button = document.getElementById("button_hide_rules");
+	var test = document.getElementById("test");
+	
 	if (rules.style.display == "none")
 		{
 			//alert('block!');
@@ -18,7 +20,8 @@ function hideRules(){
 		{
 			//alert('none!');
 			rules.style.display = "none"
-			button.innerHTML = "Показать правила"
+			button.style.display = "none";
+			test.style.display = "block";
 		}
 
 	
